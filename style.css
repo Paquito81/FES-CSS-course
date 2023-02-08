@@ -1,16 +1,20 @@
-section {
-    height: 80vh;
-    border: 1px solid black;
-}
-
-p {
-    color: blue;
+div {
+    height: 200px;
+    border: 3px solid black;
 }
 
 .red {
-    color: red;
+    background-color: red;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
 }
 
-#title {
-    color: black;
+.child {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    right: 0;
 }
